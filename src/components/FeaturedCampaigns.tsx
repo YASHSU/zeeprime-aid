@@ -1,4 +1,3 @@
-
 import React from 'react';
 import CampaignCard, { CampaignProps } from './CampaignCard';
 
@@ -13,7 +12,8 @@ const sampleCampaigns: CampaignProps[] = [
     category: 'medical',
     creatorName: 'Jane D.',
     urgent: true,
-    createdAt: new Date()
+    imageUrl: 'https://images.pexels.com/photos/263337/pexels-photo-263337.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2', // Hospital interior
+    createdAt: new Date(Date.now() - 86400000)
   },
   {
     id: '2',
@@ -23,7 +23,8 @@ const sampleCampaigns: CampaignProps[] = [
     goal: 15,
     category: 'disaster',
     creatorName: 'Mark S.',
-    createdAt: new Date()
+    imageUrl: 'https://images.pexels.com/photos/50700/styggkaret-mountain-nature-fire-50700.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2', // Wildfire photo
+    createdAt: new Date(Date.now() - 172800000)
   },
   {
     id: '3',
@@ -34,7 +35,8 @@ const sampleCampaigns: CampaignProps[] = [
     category: 'accident',
     creatorName: 'Robert J.',
     urgent: true,
-    createdAt: new Date()
+    imageUrl: 'https://images.pexels.com/photos/236380/pexels-photo-236380.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2', // Medical equipment
+    createdAt: new Date(Date.now() - 259200000)
   }
 ];
 

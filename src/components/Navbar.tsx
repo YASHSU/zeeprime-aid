@@ -9,10 +9,10 @@ const Navbar = () => {
       <div className="container mx-auto flex items-center justify-between">
         <Link to="/" className="flex items-center gap-2">
           <span className="solana-gradient w-8 h-8 rounded-lg flex items-center justify-center">
-            <span className="text-white font-bold text-lg">S</span>
+            <span className="text-white font-bold text-lg">Z</span>
           </span>
           <span className="font-bold text-lg md:text-xl">
-            Swift<span className="solana-gradient-text">Aid</span>
+            Zee<span className="solana-gradient-text">Prime</span>Aid
           </span>
         </Link>
         

@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Button } from "@/components/ui/button";
@@ -13,7 +12,7 @@ const HeroSection = () => {
               Emergency Help, <span className="solana-gradient-text">Delivered Instantly</span>
             </h1>
             <p className="text-lg text-muted-foreground mb-8">
-              Swift Aid leverages Solana blockchain to get emergency funds to people in need without delays, high fees, or complex approvals.
+              ZeePrimeAid leverages Solana blockchain to get emergency funds to people in need without delays, high fees, or complex approvals.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Link to="/create">
@@ -56,7 +55,13 @@ const HeroSection = () => {
                   Urgent
                 </div>
                 
-                <div className="rounded-lg overflow-hidden h-48 mb-4 bg-muted"></div>
+                <div className="rounded-lg overflow-hidden h-48 mb-4">
+                  <img 
+                    src="https://images.pexels.com/photos/3279197/pexels-photo-3279197.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                    alt="Medical Emergency Fund"
+                    className="w-full h-full object-cover"
+                  />
+                </div>
                 
                 <h3 className="text-xl font-bold mb-2">Medical Emergency Fund</h3>
                 <p className="text-muted-foreground text-sm mb-4">
