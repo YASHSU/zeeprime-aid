@@ -34,7 +34,7 @@ const campaigns: Record<string, CampaignProps> = {
   '3': {
     id: '3',
     title: 'Car Accident Recovery Support',
-    description: 'Help with medical bills after a serious car accident last week that left me unable to work temporarily. The unexpected accident has resulted in significant medical expenses and I'm facing challenges with covering costs while I'm unable to work during recovery. Your support will help cover urgent medical bills and essential living expenses during this difficult time.',
+    description: "Help with medical bills after a serious car accident last week that left me unable to work temporarily. The unexpected accident has resulted in significant medical expenses and I'm facing challenges with covering costs while I'm unable to work during recovery. Your support will help cover urgent medical bills and essential living expenses during this difficult time.",
     raised: 3.8,
     goal: 7.5,
     category: 'accident',
