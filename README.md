@@ -1,22 +1,19 @@
-# Welcome to your Lovable project
+**I'm excited to create a Solana emergency fundraising application that focuses on speed and simplicity. This reminds me of beautifully designed platforms like Cash App or Venmo, but optimized for urgent fundraising with the speed of Solana blockchain.**
 
-## Project info
+**For this initial version, I'll implement:**
 
-**URL**: https://lovable.dev/projects/65f13add-83b3-4dfd-b200-0de288da8c29
+A modern, clean interface with smooth animations
+Campaign creation functionality
+Donation flow (simulated for now)
+Campaign browsing and discovery
+Emergency-focused UI with clear crisis categories
 
-## How can I edit this code?
+**For the visual design, I'll use:**
 
-There are several ways of editing your application.
-
-**Use Lovable**
-
-Simply visit the [Lovable Project](https://lovable.dev/projects/65f13add-83b3-4dfd-b200-0de288da8c29) and start prompting.
-
-Changes made via Lovable will be committed automatically to this repo.
-
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+Colors: A palette with purples and teals, conveying trust and urgency
+Animations: Subtle loading states and micro-interactions
+Typography: Clean, legible fonts for urgent information
+Layout: Mobile-responsive design with prominent CTAs
 
 The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
 
@@ -59,15 +56,3 @@ This project is built with:
 - React
 - shadcn-ui
 - Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/65f13add-83b3-4dfd-b200-0de288da8c29) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
