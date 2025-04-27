@@ -10,10 +10,10 @@ const Footer = () => {
           <div className="flex flex-col gap-4">
             <Link to="/" className="flex items-center gap-2">
               <span className="solana-gradient w-8 h-8 rounded-lg flex items-center justify-center">
-                <span className="text-white font-bold text-lg">S</span>
+                <span className="text-white font-bold text-lg">Z</span>
               </span>
               <span className="font-bold text-lg md:text-xl">
-                Swift<span className="solana-gradient-text">Aid</span>
+                Zee<span className="solana-gradient-text">Prime</span>Aid
               </span>
             </Link>
             <p className="text-muted-foreground">
@@ -54,7 +54,7 @@ const Footer = () => {
             Created by Suyash Chandrakar & developed by 2706 Labs
           </p>
           <p className="text-muted-foreground text-sm mt-4 md:mt-0">
-            © {new Date().getFullYear()} Swift Aid. All rights reserved.
+            © {new Date().getFullYear()} ZeePrimeAid. All rights reserved.
           </p>
         </div>
       </div>
