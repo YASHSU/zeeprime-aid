@@ -50,9 +50,16 @@ const Footer = () => {
         </div>
         
         <div className="border-t border-border mt-8 pt-8 flex flex-col md:flex-row justify-between items-center">
-          <p className="text-muted-foreground text-sm">
-            Created by Suyash Chandrakar & developed by 2706 Labs
-          </p>
+          <div className="flex items-center gap-2">
+            <img 
+              src="/lovable-uploads/029f2146-7d7c-4c55-bb87-b4949dc137b1.png" 
+              alt="2706 Labs" 
+              className="h-8 w-auto"
+            />
+            <p className="text-muted-foreground text-sm">
+              Created by Suyash Chandrakar & developed by 2706 Labs
+            </p>
+          </div>
           <p className="text-muted-foreground text-sm mt-4 md:mt-0">
             © {new Date().getFullYear()} ZeePrimeAid. All rights reserved.
           </p>
